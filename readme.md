@@ -5,7 +5,7 @@ Interprets BAPA benchmarks in smt-lib format as either set or multiset problems,
 ## Dependencies
 
 ```
-# if you do not already have python3, install python3 for your machine via these instructions:
+# if you do not already have python3 and pip, install them for your machine via these instructions:
 https://realpython.com/installing-python/
 
 # once python3 and pip are installed, install the z3 package
@@ -13,6 +13,8 @@ pip install z3-solver
 ```
 
 ## How to Run
+
+Clone the repository: ```git clone https://github.com/mlevatich/sls-reachability.git; cd sls-reachability```
 
 For instructions on how to run the program, use ```python3 lia_star_solver.py -h```
 
