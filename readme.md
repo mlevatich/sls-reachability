@@ -31,3 +31,7 @@ Unfolding evaluation: ```python3 run_bapa.py unfold_output 50 --mapa --unfold=5`
 No-interpolation evaluation: ```python3 run_bapa.py no_interp_output 50 --mapa --no-interp```
 
 We collected the numbers for our tables by parsing the resulting csv files.
+
+The commands were executed on a 2018 MacBook Pro running OS X Mojave 10.14.5 with a 2.9 GHz Intel Core i9 processor.
+
+The version of Python used was 3.7.4. The version of z3 used was 4.8.6.0.
