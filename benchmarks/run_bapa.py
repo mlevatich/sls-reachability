@@ -10,7 +10,8 @@ import csv
 def main():
 
     # Initialize arg parser
-    prog_desc = 'Runs all bapa benchmarks, with the given options, and writes runtime statistics to txt and csv files'
+    prog_desc = ('Runs lia_star_solver.py on all bapa benchmarks, with the given options, '
+                 'and writes runtime statistics to txt and csv files')
     p = argparse.ArgumentParser(description=prog_desc)
     p.add_argument('outfile', metavar='FILENAME_NO_EXT', type=str,
                    help='name of the output file to write statistics to (omit extension)')
