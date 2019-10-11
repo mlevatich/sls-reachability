@@ -73,14 +73,16 @@ The commands were executed on a 2018 MacBook Pro running OS X Mojave 10.14.5 wit
 The version of Python used was 3.7.4. The version of z3 used was 4.8.6.0.
 
 ### 6. 
-To run the program directly on a BAPA or MAPA file, execute
+If you would like to run the program on your own BAPA or MAPA file, execute
  
 ```
 python3 lia_star_solver.py -h
 ```
 
-to see the usable options. An example execution is as follows:
+to see the usable options. Some example executions are as follows:
 
 ```
 python3 lia_star_solver.py my_mapa_file.smt2 --mapa --unfold=10
+python3 lia_star_solver.py my_bapa_file.smt2 --unfold=2
+python3 lia_star_solver.py my_mapa_file.smt2 --mapa -v
 ```
